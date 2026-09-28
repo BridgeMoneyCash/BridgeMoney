@@ -1,0 +1,29 @@
+{
+  "name": "bridgemoney",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4690",
+    "build": "next build",
+    "start": "next start -p 4690",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "assets": "node scripts/generate-assets.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5",
+    "sharp": "^0.34.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

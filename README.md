@@ -7,7 +7,7 @@ launched for, and pays that creator in dollars. This repository is the full Brid
 app. Anyone can read it, run it, and check how it works.
 
 - Site: https://bridgemoney.network
-- X: https://x.com/bridgemoneyxyz
+- X: https://x.com/bridgemoneycash
 - GitHub: https://github.com/BridgeMoneyCash/BridgeMoney
 - Network: Robinhood Chain (chain id 4663)
 

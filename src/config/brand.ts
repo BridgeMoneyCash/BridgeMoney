@@ -18,8 +18,8 @@ export const BRAND = {
   slogan: "The Infrastructure of Programmable Money",
   description:
     "Bridge Money routes token creator fees on Robinhood Chain to the creator a token names, splits every claim 80/20 on chain and pays the creator share in dollars.",
-  x: "https://x.com/bridgemoneyxyz",
-  xHandle: "bridgemoneyxyz",
+  x: "https://x.com/bridgemoneycash",
+  xHandle: "bridgemoneycash",
   /** Public GitHub repo. Empty hides every GitHub link on the site. */
   github: "https://github.com/BridgeMoneyCash/BridgeMoney" as string,
   email: "team@bridgemoney.network",

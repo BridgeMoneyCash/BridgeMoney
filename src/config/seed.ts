@@ -77,7 +77,7 @@ function base62(len: number) {
 
 const CREATOR_ROWS: [Platform, string, string, boolean, number, number][] = [
   // platform, handle, display name, verified, hue, paid ratio
-  ["x", "bridgemoneyxyz", "Bridge Money", true, 210, 0.62],
+  ["x", "bridgemoneycash", "Bridge Money", true, 210, 0.62],
   ["x", "miracastell", "Mira Castell", true, 18, 0.48],
   ["spotify", "", "Juniper Hale", false, 150, 0.41],
   ["twitch", "kestrelplays", "Kestrel", false, 268, 0.55],
@@ -315,7 +315,7 @@ export function creatorLabel(c: Creator) {
  * only the project's own account links out; the rest would point at strangers.
  */
 export function creatorExternal(c: Creator): string | null {
-  return c.platform === "x" && c.handle === "bridgemoneyxyz" ? "https://x.com/bridgemoneyxyz" : null;
+  return c.platform === "x" && c.handle === "bridgemoneycash" ? "https://x.com/bridgemoneycash" : null;
 }
 
 export const topTokens = () => [...TOKENS].sort((a, b) => b.fees - a.fees);

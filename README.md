@@ -2,7 +2,7 @@
 
 **The Infrastructure of Programmable Money.**
 
-Bridge Money ($BGN) routes token trading fees on Robinhood Chain to the creator a token is
+Bridge Money ($BRIDGE) routes token trading fees on Robinhood Chain to the creator a token is
 launched for, and pays that creator in dollars. This repository is the full Bridge Money web
 app. Anyone can read it, run it, and check how it works.
 
@@ -39,7 +39,7 @@ Bridge Money makes the creator the fee recipient from the moment a token launche
 4. **The creator is paid in dollars.** The creator verifies the identity once, connects a
    wallet, and withdraws their share as dollars instead of a pile of tokens.
 5. **Every step is public.** Explore, Payments, Analytics and Capital Flow show what each
-   token earned, what was claimed, what was paid out, and the $BGN supply and burn.
+   token earned, what was claimed, what was paid out, and the $BRIDGE supply and burn.
 
 ## What you can try in this app
 
@@ -65,7 +65,7 @@ visit without a popup.
   site labels them "Preview". The creators in it are fictional.
 
 **Live from Robinhood Chain:** block height, gas price, the Chainlink ETH/USD price, wallet
-balances, and the $BGN supply once the contract address is set.
+balances, and the $BRIDGE supply once the contract address is set.
 
 ## Run it locally
 
@@ -123,7 +123,7 @@ standard wallet interfaces (EIP-6963, EIP-1193) with no wallet SDK.
 
 ## Token contract
 
-The $BGN contract address is set in one place: `const CA` in `src/config/brand.ts`. Until it
+The $BRIDGE contract address is set in one place: `const CA` in `src/config/brand.ts`. Until it
 is published, every contract button on the site reads "CA soon".
 
 ## License

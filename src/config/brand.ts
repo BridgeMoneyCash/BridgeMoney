@@ -10,8 +10,8 @@ export const isAddress = (v: string): v is `0x${string}` =>
 export const BRAND = {
   name: "Bridge Money",
   wordmark: "Bridgemoney",
-  ticker: "BGN",
-  symbol: "$BGN",
+  ticker: "BRIDGE",
+  symbol: "$BRIDGE",
   domain: "bridgemoney.network",
   display: "Bridgemoney.Network",
   url: "https://bridgemoney.network",
